@@ -43,6 +43,15 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
+
+a{
+  text-decoration:none;
+  color: #fff;
+}
+
+header a:active{
+  color: aqua;
+}
 a:active,
 a:hover {
   outline-width: 0;
